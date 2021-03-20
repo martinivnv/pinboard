@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  p Welcome to #{title}. Feel free to add a pin!
+  h2 Pins
+  a.myButton(href="/new") Post a Pin
+  div
+    for msg in messages
+      |
+      div.msg
+        p.msgText= msg.text
+        h3.username= msg.user
+        p.msgDate= msg.added

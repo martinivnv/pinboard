@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    p Welcome to #{title}. Feel free to add a pin!
+    h2 Post a new pin
+    form(method="POST", action="/new")
+        label(for="username") Name:
+        br
+        input.inputBox(type="text", id="username", name="username")
+        br
+        label(for="message") Message:
+        br
+        textarea.inputBox(id="msg", name="msg", rows="6", cols="60")
+        br
+        input(type="submit", value="Submit", class="myButton")

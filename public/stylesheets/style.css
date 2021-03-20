@@ -1,0 +1,70 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #1c1c1e;
+	color: #dbdbdb;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+.myButton {
+	background-color: #599bb3;
+	border-radius: 8px;
+	border-style: none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0.8em 1.2em;
+	text-decoration: none;
+}
+.myButton:hover {
+	background-color: #408c99;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+.myButton:focus {
+	outline: none;
+}
+
+.msg {
+	background-color: #599bb35e;
+	border-radius: 4px;
+	padding: 1em;
+	margin-top: 1em;
+	width: 800px;
+}
+
+.username {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.msgDate {
+	font-size: 0.8em;
+}
+
+.inputBox {
+	margin: 1em 0em;
+	padding: 0.5em;
+	font-family: Arial;
+}
+
+.inputBox:focus {
+	outline: none;
+}
+
+label {
+	font-size: 1em;
+	font-weight: bold;
+}
